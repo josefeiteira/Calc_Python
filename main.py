@@ -1,4 +1,4 @@
-"""Calculadora em Python - apenas números inteiros e as 4 operações básicas
+"""Calculadora em Python
 Tem um pequeno menu de ajuda quando solicitado e a opção de sair
 José Feiteira
 """
@@ -7,7 +7,7 @@ import re
 
 # Função Principal da aplicação
 def main():
-    #Expressão regular apenas aceita numeros inteiros
+    #Expressão regular apenas aceita numeros inteiros e as 4 operações básicas
     reg_expression = re.compile("^\\s*(\\d+\\s*[+|-|/]\\s*)*\\d+$")
     print ("Se necessitar de ajuda, digite 'Ajuda'; Se quiser sair digite 'Sair'")
     print("Insira a conta que quer realizar:")
