@@ -19,9 +19,6 @@ def main():
             break
         elif reg_expression.match(user_input):
              print(user_input.lstrip().rstrip() + " = " + str(eval(user_input)))
-        else:
-            print(user_input + " = " + str(eval(user_input)))
-            print("Expressão Inválida!")
 
 def ajuda():
     print("Operações que pode realizar:")
